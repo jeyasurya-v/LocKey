@@ -11,7 +11,7 @@ function OrganizationMembersTab() {
 		<div className="mt-8">
 			<h2 className="mb-4 text-3xl">Organization Members</h2>
 			<p className="mb-4 text-muted">
-				Organization members are all StockedUp users with access to specific organization.
+				Organization members are all LocKey users with access to specific organization.
 			</p>
 
 			<OrganizationSecurityPanel organization={organization} />

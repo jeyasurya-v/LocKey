@@ -15,7 +15,7 @@ export class PasswordRestTemplate implements EmailTemplate {
 		return (
 			`Hello,` +
 			`\r\n` +
-			`We've received a request to reset the password for StockedUp account associated ` +
+			`We've received a request to reset the password for LocKey account associated ` +
 			`with this e-mail address. No changes were made to your account yet.` +
 			`\r\n\r\n` +
 			`You can reset your password by clicking this link:` +

@@ -147,10 +147,10 @@ function Router() {
 								{
 									path: 'developer',
 									children: [
-										{
-											path: '',
-											element: <UserDocumentationTab />,
-										},
+										// {
+										// 	path: '',
+										// 	element: <UserDocumentationTab />,
+										// },
 										{
 											path: 'keys',
 											element: <UserApiKeysTab />,

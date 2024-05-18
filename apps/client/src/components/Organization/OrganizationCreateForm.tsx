@@ -78,7 +78,7 @@ function OrganizationCreateForm() {
 				required
 			>
 				<FormInput
-					placeholder="US West Main"
+					placeholder="Coimbatore west main"
 					required
 					{...register('warehouseName', { required: true, setValueAs: FieldTransformers.string })}
 				/>
@@ -86,7 +86,7 @@ function OrganizationCreateForm() {
 
 			<FormField label="Warehouse address">
 				<FormInput
-					placeholder="18 Milton Street"
+					placeholder="18 Ghandhi nagar"
 					{...register('warehouseAddress', { setValueAs: FieldTransformers.string })}
 				/>
 			</FormField>

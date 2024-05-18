@@ -13,7 +13,7 @@ function UnderConstructionPage() {
 			<div className="flex flex-col items-center">
 				<h1 className="mb-6 text-4xl font-semibold">Under Construction!</h1>
 				<p className="text-justify text-xl text-muted xl:px-48">
-					Oops! This page isn&apos;t ready yet. We&apos;re always improving StockedUp, and this
+					Oops! This page isn&apos;t ready yet. We&apos;re always improving LocKey, and this
 					feature isn&apos;t available just yet. Please come back later to check it out. Thanks for
 					your patience and stay tuned for updates!
 				</p>

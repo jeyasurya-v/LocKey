@@ -9,7 +9,7 @@ export interface CurrencyProps {
 
 function Currency({ children, suffix }: CurrencyProps) {
 	const { organization } = useContext(CurrentAppContext);
-	const resolvedSuffix = organization?.settings.currency || 'USD';
+	const resolvedSuffix = organization?.settings.currency || 'INR';
 
 	const value = useMemo(() => Utils.humanizeNumber(Number(children)), [children]);
 	return (

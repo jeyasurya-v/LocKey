@@ -7,7 +7,7 @@ function ActionSection() {
 			<Container className="flex flex-col items-center py-36">
 				<div className="flex flex-col items-center justify-center text-center">
 					<h3 className="mb-14 text-3xl font-semibold">
-						Simplify your inventory management with StockedUp.
+						Simplify your inventory management with LocKey.
 					</h3>
 					<HomePageActionButtons />
 				</div>

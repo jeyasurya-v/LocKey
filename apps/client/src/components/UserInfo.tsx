@@ -45,7 +45,7 @@ function UserInfo() {
 			</DropdownToggle>
 			<DropdownMenu>
 				<UserSettingsDropdownItem />
-				<Link
+				{/* <Link
 					to="https://github.com/MrBartusek/stocked-up/issues"
 					target="_blank"
 				>
@@ -55,7 +55,7 @@ function UserInfo() {
 					>
 						Report issue
 					</DropdownItem>
-				</Link>
+				</Link> */}
 				<ConfirmLogoutButton className="w-full">
 					<DropdownItem icon={BsBoxArrowLeft}>Logout</DropdownItem>
 				</ConfirmLogoutButton>

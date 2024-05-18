@@ -6,12 +6,12 @@ function BasicFooterNavigation() {
 			<div>
 				<h6 className="mb-2 text-xl font-semibold">Platform</h6>
 				<div className="flex flex-col gap-2">
-					<Link
+					{/* <Link
 						className="link-primary"
 						to="/demo"
 					>
 						Try Demo
-					</Link>
+					</Link> */}
 					<Link
 						className="link-primary"
 						to="/login"
@@ -26,7 +26,7 @@ function BasicFooterNavigation() {
 					</Link>
 				</div>
 			</div>
-			<div>
+			{/* <div>
 				<h6 className="mb-2 text-xl font-semibold">Source</h6>
 				<div className="flex flex-col gap-2">
 					<Link
@@ -42,7 +42,7 @@ function BasicFooterNavigation() {
 						Issues tracker
 					</Link>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 }

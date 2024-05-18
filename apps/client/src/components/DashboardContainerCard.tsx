@@ -13,7 +13,7 @@ function DashboardContainerCard({ ...props }: DashboardContainerCard) {
 			<ErrorBoundary
 				fallback={
 					<span className="font-bold text-red-600">
-						StockedUp encountered and error when loading this element
+						Lockey encountered and error when loading this element
 					</span>
 				}
 			>

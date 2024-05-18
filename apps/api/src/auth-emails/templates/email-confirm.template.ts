@@ -14,7 +14,7 @@ export class EmailConfirmTemplate implements EmailTemplate {
 	toString(): string {
 		const url = `${BASE_URL}confirm-email?user=${this.userId.toString()}&token=${this.token}`;
 		return (
-			`Welcome to StockedUp ${this.username}! ` +
+			`Welcome to LocKey ${this.username}! ` +
 			`\r\n` +
 			`Thanks for singing up! ` +
 			`To confirm this e-mail address, please follow this link:` +

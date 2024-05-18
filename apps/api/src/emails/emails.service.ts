@@ -8,9 +8,9 @@ const { EMAIL_SENDER } = process.env;
 const EMAIL_FOOTER = `
 
 Thanks,
-StockedUp Team
+LocKey Team
 ---
-This is automated message sent by StockedUp. Please do not reply to this email.
+This is automated message sent by LocKey. Please do not reply to this email.
 If you received this email by mistake or believe it is a spam, please forward it to bartosz@dokurno.dev`;
 
 export interface SendEmailOptions {
@@ -28,7 +28,7 @@ export class EmailsService {
 	async sendEmail(options: SendEmailOptions): Promise<string> {
 		const result = await this.resend.emails.send({
 			...options,
-			from: `StockedUp <${EMAIL_SENDER || DEFAULT_EMAIL_SENDER}>`,
+			from: `LocKey <${EMAIL_SENDER || DEFAULT_EMAIL_SENDER}>`,
 			text: options.text + EMAIL_FOOTER,
 		});
 

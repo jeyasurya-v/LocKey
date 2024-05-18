@@ -9,26 +9,43 @@ interface StockedUpLogoProps
 	variant: LogoVariant;
 }
 
-function StockedUpLogo(props: StockedUpLogoProps) {
-	const variant = props.variant;
+// function StockedUpLogo(props: StockedUpLogoProps) {
+// 	const variant = props.variant;
 
-	function getSrc(variant: LogoVariant): string {
-		if (variant == 'white') {
-			return LogoWhite;
-		} else if (variant == 'black') {
-			return LogoBlack;
-		}
-		return '';
-	}
+// 	function getSrc(variant: LogoVariant): string {
+// 		if (variant == 'white') {
+// 			return LogoWhite;
+// 		} else if (variant == 'black') {
+// 			return LogoBlack;
+// 		}
+// 		return '';
+// 	}
+
+// 	return (
+// 		<img
+// 			{...props}
+// 			src={getSrc(variant)}
+// 			alt="LocKey logo"
+// 			width={340}
+// 			height={115}
+// 		/>
+// 	);
+// }
+
+
+function StockedUpLogo(props: StockedUpLogoProps) {
+	const variant = props.variant;  // Not used in this case, but can be kept for future flexibility
+
+	// Removed getSrc function and image references
 
 	return (
-		<img
+		<span // Use span instead of img
 			{...props}
-			src={getSrc(variant)}
-			alt="StockedUp logo"
-			width={340}
-			height={115}
-		/>
+			style={{ color: 'black', fontSize: '42px', fontFamily: 'Montserrat' }}
+		>
+			<span style={{ color: 'inherit' }}>Loc</span>
+			<span style={{ color: 'var(--link-primary)' }}>K</span>ey
+		</span>
 	);
 }
 

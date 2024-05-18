@@ -38,7 +38,7 @@ export class AuthEmailsService {
 
 		return await this.emailService.sendEmail({
 			to: user.profile.email,
-			subject: '[StockedUp] Confirm E-mail address',
+			subject: '[LocKey] Confirm E-mail address',
 			text: content.toString(),
 		});
 	}
@@ -58,7 +58,7 @@ export class AuthEmailsService {
 
 		return this.emailService.sendEmail({
 			to: user.profile.email,
-			subject: '[StockedUp] Password reset request',
+			subject: '[LocKey] Password reset request',
 			text: content.toString(),
 		});
 	}

@@ -9,7 +9,7 @@ function OrganizationPreferencesTab() {
 		<div className="my-8">
 			<h2 className="mb-4 text-3xl">Organization Preferences</h2>
 			<p className="mb-4 text-muted">
-				Control how StockedUp will behave while working with this organization
+				Control how LocKey will behave while working with this organization
 			</p>
 
 			<RealtimeOrgSettingSelect

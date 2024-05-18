@@ -14,7 +14,7 @@ export class OrgSettings {
 	@Prop({
 		type: String,
 		enum: Object.values(Currency),
-		default: Currency.USD,
+		default: Currency.INR,
 	})
 	currency: Currency;
 

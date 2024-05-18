@@ -5,19 +5,19 @@ function UserDocumentationTab() {
 	return (
 		<div className="mt-8">
 			<h2 className="mb-4 text-3xl">API Documentation</h2>
-			<p className="mb-6 text-muted">Documentation for StockedUp Public API.</p>
+			<p className="mb-6 text-muted">Documentation for LocKey Public API.</p>
 
 			<h2 className="mb-3 text-2xl">Overview</h2>
 			<p className="mb-8">
-				This document will provide you with a basic understanding of the StockedUp Public API. It is
+				This document will provide you with a basic understanding of the LocKey Public API. It is
 				designed to help you begin exploring and developing your own tools and apps that integrate
-				with StockedUp resources. Our API allows you to seamlessly integrate data from StockedUp
+				with LocKey resources. Our API allows you to seamlessly integrate data from LocKey
 				into your applications, as well as modify resources as needed.
 			</p>
 
 			<h2 className="mb-3 text-2xl">Authentication</h2>
 			<p className="mb-8">
-				To access StockedUp API, you&apos;ll need a personal API key. This key acts as a secure
+				To access LocKey API, you&apos;ll need a personal API key. This key acts as a secure
 				token linked to your account and is used to authenticate your requests. To generate the API
 				key please visit:{' '}
 				<Link
@@ -42,7 +42,7 @@ function UserDocumentationTab() {
 
 			<h2 className="mb-3 text-2xl">API Reference</h2>
 			<p className="mb-8">
-				StockedUp provides comprehensive documentation for its API in Swagger format, offering
+			LocKey provides comprehensive documentation for its API in Swagger format, offering
 				detailed information about available endpoints, request parameters, and response schemas.
 			</p>
 

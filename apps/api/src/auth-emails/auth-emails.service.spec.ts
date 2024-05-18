@@ -101,7 +101,7 @@ describe('AuthEmailsService', () => {
 			expect(sendEmailSpy).toHaveBeenCalledWith(
 				expect.objectContaining({
 					to: 'test@dokurno.dev',
-					subject: '[StockedUp] Confirm E-mail address',
+					subject: '[LocKey] Confirm E-mail address',
 					text: expect.stringContaining('TEST_TOKEN'),
 				}),
 			);
@@ -135,7 +135,7 @@ describe('AuthEmailsService', () => {
 			expect(sendEmailSpy).toHaveBeenCalledWith(
 				expect.objectContaining({
 					to: 'test@dokurno.dev',
-					subject: '[StockedUp] Password reset request',
+					subject: '[LocKey] Password reset request',
 					text: expect.stringContaining('TEST_TOKEN'),
 				}),
 			);

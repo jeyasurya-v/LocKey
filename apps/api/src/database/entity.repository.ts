@@ -88,7 +88,7 @@ export abstract class EntityRepository<T extends Document> {
 		return deleteResult.deletedCount >= 1;
 	}
 
-	async deleteOneById(id: mongoose.Types.ObjectId | string): Promise<T | null> {
+	async deleteOneById(id: mongoose.Types.ObjectId | string): Promise<any | null> {
 		if (!mongoose.isValidObjectId(id)) {
 			return null;
 		}

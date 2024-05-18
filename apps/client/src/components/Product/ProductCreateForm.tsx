@@ -71,7 +71,7 @@ function ProductCreateForm() {
 				required
 			>
 				<FromInput
-					placeholder="Engine oil filter"
+					placeholder="eg: Biscuits"
 					required
 					{...register('name', { required: true, setValueAs: FieldTransformers.string })}
 				/>
@@ -90,7 +90,7 @@ function ProductCreateForm() {
 				errors={errors.sku}
 			>
 				<FromInput
-					placeholder="ICWP-PL-WSSV"
+					placeholder="eg: ABC-001"
 					{...register('sku', { setValueAs: FieldTransformers.string })}
 				/>
 			</FormField>
@@ -101,7 +101,7 @@ function ProductCreateForm() {
 				errors={errors.buyPrice}
 			>
 				<FormCurrencyInput
-					placeholder="8.00"
+					placeholder="eg. 2000"
 					{...register('buyPrice', { setValueAs: FieldTransformers.number })}
 				/>
 			</FormField>
@@ -112,7 +112,7 @@ function ProductCreateForm() {
 				errors={errors.sellPrice}
 			>
 				<FormCurrencyInput
-					placeholder="12.00"
+					placeholder="eg. 2100"
 					{...register('sellPrice', { setValueAs: FieldTransformers.number })}
 				/>
 			</FormField>

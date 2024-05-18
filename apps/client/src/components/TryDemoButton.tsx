@@ -4,7 +4,7 @@ import Button from './Button';
 function TryDemoButton() {
 	return (
 		<Link to="/register/demo">
-			<Button variant="primary-outline">Try demo account</Button>
+			{/* <Button variant="primary-outline">Try demo account</Button> */}
 		</Link>
 	);
 }

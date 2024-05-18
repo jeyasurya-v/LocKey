@@ -38,7 +38,7 @@ function RegisterForm() {
 			})
 			.then(invalidateUser)
 			.then(() => navigate('/dashboard'))
-			.then(() => toast.success('Your registration was successful. Welcome to StockedUp!'))
+			.then(() => toast.success('Your registration was successful. Welcome to LocKey!'))
 			.catch((err) => setError(Utils.requestErrorToString(err)))
 			.finally(() => setLoading(false));
 	}

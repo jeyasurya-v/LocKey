@@ -5,14 +5,12 @@ function BasicFooterContact() {
 		<div className="flex flex-col items-center text-center sm:items-end sm:text-end">
 			<h6 className="mb-2 text-xl font-semibold">Contact us</h6>
 			<p className="mb-4 text-sm text-muted">
-				For any inquires, support or question.
-				<br /> Don&apos;t hastate to contact us!
 			</p>
 			<Link
-				to="mailto:stockedup@dokurno.dev"
+				to="mailto:LocKey@dokurno.dev"
 				className="link-primary font-semibold"
 			>
-				stockedup@dokurno.dev
+				lockey-inventory@gmail.com
 			</Link>
 		</div>
 	);

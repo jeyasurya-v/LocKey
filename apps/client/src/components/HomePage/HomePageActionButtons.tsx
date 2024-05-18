@@ -9,12 +9,12 @@ function HomePageActionButtons() {
 			</Link>
 
 			<Link to="register/demo">
-				<Button
+				{/* <Button
 					variant="primary-outline"
 					size="large"
 				>
 					Explore demo account
-				</Button>
+				</Button> */}
 			</Link>
 		</div>
 	);

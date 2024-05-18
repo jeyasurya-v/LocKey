@@ -41,7 +41,7 @@ function SendPasswordResetEmailForm() {
 			) : (
 				<>
 					<p className="mb-4 text-center text-muted">
-						Please enter the E-mail address that you have used to register to StockedUp. We will
+						Please enter the E-mail address that you have used to register to LocKey. We will
 						send you a link that you can use to reset your password
 					</p>
 

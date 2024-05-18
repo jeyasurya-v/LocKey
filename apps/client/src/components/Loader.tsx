@@ -34,7 +34,7 @@ function Loader({ height = 'inherit', children, isLoading, isError, className }:
 		<ErrorBoundary
 			fallback={
 				<span className="font-bold text-red-600">
-					StockedUp encountered and error when loading this element
+					LocKey encountered and error when loading this element
 				</span>
 			}
 		>

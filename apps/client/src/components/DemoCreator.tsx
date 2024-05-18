@@ -23,7 +23,7 @@ function DemoCreator() {
 				return axios.post(`/api/auth/login`, loginDto);
 			})
 			.then(invalidateUser)
-			.then(() => toast.success('Welcome to StockedUp demo!'))
+			.then(() => toast.success('Welcome to LocKey demo!'))
 			.catch((err) => setError(Utils.requestErrorToString(err)))
 			.finally(() => setLoading(false));
 	}
@@ -33,7 +33,7 @@ function DemoCreator() {
 			<div className="my-8">
 				{error && <Alert>{error}</Alert>}
 				<p className="mb-2">
-					We are going to create temporary demonstration StockedUp account. It will be filled with
+					We are going to create temporary demonstration LocKey account. It will be filled with
 					fake warehouses and products.
 				</p>
 				<p>This account will be removed in 24 hours</p>

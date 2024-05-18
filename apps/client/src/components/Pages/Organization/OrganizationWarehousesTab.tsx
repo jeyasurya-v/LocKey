@@ -22,7 +22,7 @@ function OrganizationWarehousesTab() {
 			<p className="mb-4 text-muted">
 				This list comprises all warehouses created within the organization. Warehouses store
 				information about stock quantity and location for products. It is recommended to create a
-				StockedUp warehouse corresponding to each physical warehouse.
+				LocKey warehouse corresponding to each physical warehouse.
 			</p>
 
 			<WarehousesList

@@ -67,7 +67,7 @@ function WarehouseUpdateForm({ warehouse }: WarehouseUpdateFormProps) {
 				required
 			>
 				<FormInput
-					placeholder="US West Main"
+					placeholder="Coimbatore west main"
 					required
 					{...register('name', { required: true, setValueAs: FieldTransformers.string })}
 				/>
@@ -75,7 +75,7 @@ function WarehouseUpdateForm({ warehouse }: WarehouseUpdateFormProps) {
 
 			<FormField label="Address">
 				<FormInput
-					placeholder="18 Milton Street"
+					placeholder="18 Ghandhi nagar"
 					{...register('address', { setValueAs: FieldTransformers.string })}
 				/>
 			</FormField>

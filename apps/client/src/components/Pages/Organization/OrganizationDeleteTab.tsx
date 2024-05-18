@@ -16,7 +16,7 @@ function OrganizationDeleteTab() {
 					'All warehouses in this organization',
 					'All product definitions in this organization',
 					'All inventory items in this organization',
-					'Any StockedUp user will be able to create new organization with this name',
+					'Any LocKey user will be able to create new organization with this name',
 				]}
 				confirmBeforeDelete
 				navigateTo="/dashboard"

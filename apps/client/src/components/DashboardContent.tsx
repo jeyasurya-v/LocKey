@@ -15,7 +15,7 @@ function DashboardContent({ children, header }: DashboardContentProps) {
 			</div>
 			<div className="mt-2">{children}</div>
 			<div className="mt-8 text-center text-sm text-muted">
-				StockedUp &copy; {new Date().getFullYear()}
+				LocKey &copy; {new Date().getFullYear()}
 			</div>
 		</div>
 	);

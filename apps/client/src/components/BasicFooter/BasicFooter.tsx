@@ -5,8 +5,8 @@ import BasicFooterBrand from './BasicFooterBrand';
 import BasicFooterContact from './BasicFooterContact';
 import BasicFooterNavigation from './BasicFooterNavigation';
 
-const PORTFOLIO_LINK =
-	'https://dokurno.dev/?utm_source=stockedup&utm_medium=footer&utm_campaign=stockedup_footer';
+// const PORTFOLIO_LINK =
+// 	'https://dokurno.dev/?utm_source=stockedup&utm_medium=footer&utm_campaign=stockedup_footer';
 
 function BasicFooter() {
 	return (
@@ -31,16 +31,16 @@ function BasicFooter() {
 						'flex items-center justify-between gap-4',
 					)}
 				>
-					<div>&copy; StockedUp {new Date().getFullYear()} - All rights reserved</div>
-					<div>
+					<div>&copy; LocKey {new Date().getFullYear()}</div>
+					{/* <div>
 						Made by:{' '}
 						<Link
 							to={PORTFOLIO_LINK}
 							className="link-muted"
 						>
-							MrBartusek
+							Surya
 						</Link>
-					</div>
+					</div> */}
 				</div>
 			</Container>
 		</footer>

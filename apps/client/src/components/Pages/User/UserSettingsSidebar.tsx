@@ -27,11 +27,11 @@ function UserSettingsSidebar() {
 				/>
 			</SidebarSection>
 			<SidebarSection name="Developer">
-				<SidebarLink
+				{/* <SidebarLink
 					to={`${baseUrl}/developer`}
 					icon={BsCodeSlash}
 					text="Documentation"
-				/>
+				/> */}
 				<SidebarLink
 					to={`${baseUrl}/developer/keys`}
 					icon={BsKeyFill}

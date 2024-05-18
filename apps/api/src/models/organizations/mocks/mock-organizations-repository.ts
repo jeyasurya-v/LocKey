@@ -18,7 +18,7 @@ export class MockOrganizationsRepository extends MockEntityRepository<Organizati
 			},
 			settings: {
 				valueCalculationStrategy: OrgValueCalculationStrategy.BuyPrice,
-				currency: 'USD',
+				currency: 'INR',
 			},
 			acls: [
 				{

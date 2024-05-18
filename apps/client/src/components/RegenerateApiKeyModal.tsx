@@ -46,7 +46,7 @@ function RegenerateApiKeyModal(props: RegenerateApiKeyModalProps) {
 			<ModalBody>
 				{error && <Alert>{error}</Alert>}
 				Regenerating your API key will invalidate the old key. Any applications or services using
-				the old key will no longer have access to your StockedUp account data. <br />
+				the old key will no longer have access to your LocKey account data. <br />
 				Are you sure you want to proceed with generating a new API key?
 			</ModalBody>
 

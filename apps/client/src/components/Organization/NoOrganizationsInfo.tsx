@@ -13,7 +13,7 @@ function NoOrganizationsInfo() {
 					<div className="text-2xl">No organizations found!</div>
 				</div>
 				<p className="max-w-lg text-center text-muted">
-					You currently doesn&apos;t have access to any StockedUp organizations. Please wait for
+					You currently doesn&apos;t have access to any LocKey organizations. Please wait for
 					invite to existing organization or create one yourself.
 				</p>
 				<Link to="/dashboard/create">

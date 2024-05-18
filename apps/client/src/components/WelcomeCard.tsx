@@ -10,10 +10,10 @@ function WelcomeCard() {
 	const { organization } = useContext(CurrentAppContext);
 
 	return (
-		<CardWithTitle title="Welcome to StockedUp!">
+		<CardWithTitle title="Welcome to LocKey!">
 			<p className="text-gray-800">
 				Welcome to your new organization {user.username}! To get you started, there are some things
-				you can do with StockedUp:
+				you can do with LocKey:
 			</p>
 			<div className="mt-4 flex flex-col divide-y text-lg">
 				<WelcomeActionLink
